@@ -96,6 +96,10 @@ body::after {
     transition: transform 0.2s ease-in-out;
 }
 
+.question-btn:hover {
+    color: var(--clr-arrow-hover);
+}
+
 .question-btn.active::after {
     transform: rotate(180deg);
 }
@@ -111,6 +115,7 @@ body::after {
 
 #answer {
     max-height: 45px;
+
 }
 
 .spacing2 {
@@ -127,6 +132,10 @@ hr {
 span {
     font-weight: bold;
     color: var(--clr-title-bold);
+}
+
+span:hover {
+    color: var(--clr-arrow-hover);
 }
 
 @media only screen and (min-width:1000px) {
