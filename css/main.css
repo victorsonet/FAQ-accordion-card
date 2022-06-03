@@ -109,6 +109,10 @@ body::after {
     line-height: 1.1rem;
 }
 
+#answer {
+    max-height: 45px;
+}
+
 .spacing2 {
     padding-bottom: .5rem;
 }
